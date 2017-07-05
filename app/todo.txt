@@ -1,0 +1,24 @@
+COLOR PROFILE
+-Inviting
+-Use Rebecka's blue and some greens, whites
+-keep the sinewave, animate?
+
+LAYOUT OF PROJECTS
+-Gridlike
+-when mouseover, black out a bit, white text with info and link
+-on mobile, do one at a time-all pictures clickable
+
+HEADER
+-three bar thingy on either left or right-options should be both vertical and horizontal
+-animate options coming in
+-onclick, change to dash
+
+ANIMATING DOOHICKIES
+-Animate the _ in my name
+-Use the sinewave and mess with angle, maybe animate?
+
+KNICKKNACKS
+-Latest Euler Project?
+
+
+STORYBOARD INTERACTIVITY

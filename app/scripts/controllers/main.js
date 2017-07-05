@@ -8,10 +8,12 @@
  * Controller of the portfolioApp
  */
 angular.module('portfolioApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+   
   });
