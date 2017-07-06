@@ -50,10 +50,10 @@ body {
 
     .pstatement1{
       height: 300px;
-      margin-bottom: 500px;
+      margin-bottom: 300px;
       overflow: hidden;
       background-image: url("../images/bgdesign.png");
-      background-repeat: repeat-y;
+      background-repeat: repeat-x;
       background-position: center;  
     }
 
@@ -85,12 +85,16 @@ body {
       display: block;
       width: 80vw;
       margin-left: 10vw;
+
       .mainwork{
         width: 80%;
         margin-left: 10%;
         height: 400px;
         text-align: center;
         background-image: url("http://i.imgur.com/QfkSz4I.png");
+      }
+      h1{
+        font-size: 70px;
       }
       img{
         width: 40%;
