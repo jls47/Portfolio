@@ -14,9 +14,17 @@ body {
   padding: 0;
 }
 
+@keyframes animate {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
 
 
-/* Remove the padding we set earlier */
   
 
   .photo{
@@ -29,6 +37,15 @@ body {
       width: 100%;
       text-align: center;
     }
+
+    .under{
+      animation-duration: 0.7s;
+      animation-name: animate;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+    }
+
     .menu{
       position: fixed;
       top: 5px;
