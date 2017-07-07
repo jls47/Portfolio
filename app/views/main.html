@@ -1,18 +1,23 @@
+  <h3 class = "menu"><a ng-click="menu()"><span class = "glyphicon glyphicon-menu-hamburger"></span></a></h3>
+  <div class = "menu1" ng-show="clicked"><h3 class = "entry"><a href="#worksS">Works</a></h3>
+  <h3 class = "entry"><a href="#about">About</a><h3></div>
+  <div class = "menu2" ng-show="clicked"><h3><a href="#contact">Contact</a></h3></div>
+  
   <div class = "pstatement1">
     <h2 class = "statement1">I'm Luke!  I like to build websites that work as well as or better than they look.</h1>
   </div>
   <!--<canvas id="axes" width = "1920px" height = "300px"></canvas>-->
   
-  <div class = "works">
+  <div class = "works" id = "works">
     <h1>Work</h1>
-    <div class = "mainwork"></div>
-    <img class = "subworks" src="http://i.imgur.com/LWsvC1V.png"></img><img class = "subworks" src="http://i.imgur.com/0mYtZUQ.jpg"></img>
+    <div class = "mainwork"><img class = "primework"src="../images/screen0.png"></div>
+    <img class = "subworks" id = "subwork1" src="http://i.imgur.com/LWsvC1V.png"></img><img class = "subworks" src="http://i.imgur.com/0mYtZUQ.jpg"></img>
     <img class = "subworks" src="http://i.imgur.com/obHUg9I.png"></img><img class = "subworks" src="http://i.imgur.com/MZ0mTqv.png"></img>
     
 
   </div>
-  <div class = "statement2">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Circle-withsegments.svg/1200px-Circle-withsegments.svg.png">
+  <div class = "statement2" id = "about">
+    <img src="../images/circle.png">
     <h3>Born and bred in Colorado, I’ve cut my teeth in Seattle pursuing science, building sites, and doing pure programming.
     I emphasize functionality in my sites and work hard to make sure they are as versatile as possible, using JS, Python, and the rest of the full stack to the best of its capabilities.</h3>
     

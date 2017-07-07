@@ -36,6 +36,24 @@ body {
       
     }
 
+    .menu1{
+      position: fixed;
+      top: 20px;
+      right: 70px;
+    
+    }
+
+    .entry{
+      display: inline;
+    }
+
+    .menu2{
+      position: fixed;
+      top: 90px;
+      right: -10px;
+      transform: rotate(90deg);
+    }
+
     .mainbody{
       margin-top: 300px;
       width: 100vw;
@@ -91,14 +109,21 @@ body {
         margin-left: 10%;
         height: 400px;
         text-align: center;
-        background-image: url("http://i.imgur.com/QfkSz4I.png");
+        
       }
       h1{
         font-size: 70px;
       }
-      img{
+      .primework{
+        width: 100%;
+      }
+      .subworks{
         width: 40%;
       }
+    }
+
+    #subwork1{
+      
     }
 
     .footer1{
