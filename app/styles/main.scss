@@ -386,8 +386,8 @@ body {
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
-      width: 80%;
+      height: 300px;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(240,100,40,1);
@@ -399,8 +399,8 @@ body {
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
-      width: 40%;
+      height: 300px;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(242, 112, 34, 1);
@@ -408,12 +408,12 @@ body {
 
     .overlay2 {
       position: absolute;
-      top: 400px;
+      top: 700px;
       bottom: 0;
-      left: 50%;
+      left: 10%;
       right: 20%;
-      height: 400px;
-      width: 40%;
+      height: 300px;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(246, 140, 31, 1);
@@ -421,27 +421,27 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 800px;
+      top: 1000px;
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
-      width: 40%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: rgba(250, 164, 25, 1);
-    }
-    .overlay4 {
-      position: absolute;
-      top: 800px;
-      bottom: 0;
-      left: 50%;
-      right: 20%;
-      height: 400px;
-      width: 40%;
+      height: 300px;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(253, 184, 19, 1);
+    }
+    .overlay4 {
+      position: absolute;
+      top: 1300px;
+      bottom: 0;
+      left: 10%;
+      right: 20%;
+      height: 300px;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(260, 200, 10, 1);
     }
 
     .mainwork:hover .overlay0 {
@@ -577,10 +577,10 @@ body {
       position: absolute;
       top: 0px;
       bottom: 0;
-      left: 10%;
+      left: 0%;
       right: 20%;
       height: 400px;
-      width: 80%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(240,100,40,1);
@@ -590,10 +590,10 @@ body {
       position: absolute;
       top: 400px;
       bottom: 0;
-      left: 10%;
+      left: 0%;
       right: 20%;
       height: 400px;
-      width: 40%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(242, 112, 34, 1);
@@ -601,12 +601,12 @@ body {
 
     .overlay2 {
       position: absolute;
-      top: 400px;
+      top: 800px;
       bottom: 0;
-      left: 50%;
+      left: 0%;
       right: 20%;
       height: 400px;
-      width: 40%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(246, 140, 31, 1);
@@ -614,24 +614,24 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 800px;
+      top: 1200px;
       bottom: 0;
-      left: 10%;
+      left: 0%;
       right: 20%;
       height: 400px;
-      width: 40%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
-      background-color: rgba(250, 164, 25, 1);
+      background-color: rgba(253, 184, 19, 1);
     }
     .overlay4 {
       position: absolute;
-      top: 800px;
+      top: 1600px;
       bottom: 0;
-      left: 50%;
+      left: 0%;
       right: 20%;
       height: 400px;
-      width: 40%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(253, 184, 19, 1);
@@ -781,7 +781,7 @@ body {
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 40%;
       opacity: 0;
       transition: .5s ease;
@@ -794,7 +794,7 @@ body {
       bottom: 0;
       left: 50%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 40%;
       opacity: 0;
       transition: .5s ease;
@@ -803,23 +803,23 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 800px;
+      top: 700px;
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 40%;
       opacity: 0;
       transition: .5s ease;
-      background-color: rgba(250, 164, 25, 1);
+      background-color: rgba(253, 184, 19, 1);
     }
     .overlay4 {
       position: absolute;
-      top: 800px;
+      top: 700px;
       bottom: 0;
       left: 50%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 40%;
       opacity: 0;
       transition: .5s ease;
@@ -1000,7 +1000,7 @@ body {
       width: 40%;
       opacity: 0;
       transition: .5s ease;
-      background-color: rgba(250, 164, 25, 1);
+      background-color: rgba(253, 184, 19, 1);
     }
     .overlay4 {
       position: absolute;
