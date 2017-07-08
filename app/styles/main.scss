@@ -27,11 +27,14 @@ body {
 
   
 
-  .photo{
+    .photo1{
       position: absolute;
       top: 10px;
       left: 15px;
-      
+      width: 100px;
+    }
+    .photo2{
+      width: 300px;
     }
 
     .header1{
@@ -322,6 +325,10 @@ body {
 
     @media screen and (min-width: 350px) {
 
+      .statement2{
+        margin-bottom: 400px;
+      }
+
       .works{
       display: block;
       width: 100%;
@@ -335,12 +342,11 @@ body {
         text-align: center;
         overflow: hidden;
         img{
-          width: 200%;
-          margin-left: -50%;
+          margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
-         
+          width: 30%;
         }
         
       }
@@ -349,9 +355,9 @@ body {
       }
       #subworks{
         width: 100vw;
-        height: 400px;
+        height: 300px;
         img{
-          width: 100%;
+          width: 100vw;
           margin-left: auto;
           margin-right: auto;
         }
@@ -365,7 +371,7 @@ body {
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -378,7 +384,7 @@ body {
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -387,11 +393,11 @@ body {
 
     .overlay2 {
       position: absolute;
-      top: 800px;
+      top: 700px;
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -400,11 +406,11 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 1200px;
+      top: 1000px;
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -412,11 +418,11 @@ body {
     }
     .overlay4 {
       position: absolute;
-      top: 1600px;
+      top: 1300px;
       bottom: 0;
       left: 10%;
       right: 20%;
-      height: 400px;
+      height: 300px;
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -496,7 +502,7 @@ body {
     }
 
     .footer1{
-      height: 150px;
+      height: 600px;
       background: rgb(97, 194, 203);
       margin-top: 150px;
       text-align: center;
@@ -512,6 +518,10 @@ body {
 
     @media screen and (min-width: 768px) {
 
+      .statement2{
+        margin-bottom: 0px;
+      }
+
       .works{
       display: block;
       width: 80vw;
@@ -525,11 +535,11 @@ body {
         text-align: center;
         overflow: hidden;
         img{
-          margin-left: auto;
+          margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
-         
+          width: 30%;
         }
         
       }
@@ -685,7 +695,7 @@ body {
     }
 
     .footer1{
-      height: 150px;
+      height: 400px;
       background: rgb(97, 194, 203);
       margin-top: 150px;
       text-align: center;
@@ -714,11 +724,11 @@ body {
         text-align: center;
         overflow: hidden;
         img{
-          margin-left: auto;
+          margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
-         
+          width: 30%;
         }
         
       }
@@ -882,8 +892,8 @@ body {
       img{
         width: 100px;
         margin-top: 20px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
       }
     }
   }
@@ -903,11 +913,11 @@ body {
         text-align: center;
         overflow: hidden;
         img{
-          margin-left: auto;
+          margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
-         
+          width: 40%;
         }
         
       }
