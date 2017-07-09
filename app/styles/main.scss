@@ -53,9 +53,13 @@ body {
 
     }
 
-    .menuthing a{
-      color: rgba(96, 194, 203, 1);
-      text-decoration: none;
+    .menuthing{
+      z-index: 100;
+      a{
+        color: rgba(96, 194, 203, 1);
+        text-decoration: none;
+        background: rgba(260, 200, 10, 0.3))
+      }
     }
 
     .menu{
