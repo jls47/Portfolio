@@ -55,6 +55,10 @@ body {
 
     .menuthing{
       z-index: 100;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
       a{
         color: rgba(96, 194, 203, 1);
         z-index: 50000000;
