@@ -57,8 +57,9 @@ body {
       z-index: 100;
       a{
         color: rgba(96, 194, 203, 1);
+        z-index: 50000000;
         text-decoration: none;
-        background: rgba(260, 200, 10, 0.3);
+        
       }
     }
 
