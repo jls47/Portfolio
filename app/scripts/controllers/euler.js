@@ -13,12 +13,12 @@ angular.module('portfolioApp')
     var isprime = function(num){
       if(num % 2 === 0 && num > 2){
         return false;
-        break
+        
       }
       for(i in range(3, Math.sqrt(num))){
         if(num % i === 0){
           return false;
-          break
+          
         }
       }
       
