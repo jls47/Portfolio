@@ -21,9 +21,9 @@ angular.module('portfolioApp')
           break
         }
       }
-      $scope.num = num;
+      
       return true;
-    }
+    };
 
 
     $scope.euler = function(){
@@ -34,11 +34,11 @@ angular.module('portfolioApp')
         if(isprime(a) == True){
           psum += a;
           console.log("Sum so far: " + psum.toString());
-          $scope.psum = psum;
+          
         }
         a++;
       }
       console.log("The sum is" + psum.toString());
-      $scope.sum = psum;
-    }
+      
+    };
   });
