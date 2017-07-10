@@ -183,7 +183,7 @@ body {
           z-index: 0;
           width: 100%;
           margin-left: auto;
-          margin-right: auto;
+          margin-right: 0px;
         }
         display: block;
       }
@@ -963,6 +963,7 @@ body {
       width: 80vw;
       margin-left: 10vw;
       position: relative;
+      background: #E4F6FA;
 
       .mainwork{
         width: 80%;
@@ -1012,8 +1013,8 @@ body {
       top: 400px;
       bottom: 0;
       left: 10%;
-      margin-left: -2px;
-      margin-right: 2px;
+      margin-left: 2px;
+      margin-right: 0px;
       right: 20%;
       height: 320px;
       width: 40%;
