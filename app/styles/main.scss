@@ -55,15 +55,15 @@ body {
 
     .menuthing{
       z-index: 100;
-      display: block;
+      
       position: absolute;
       right: 0;
-      top: 0;
+      
       a{
-        color: rgba(96, 194, 203, 1);
-        z-index: 50000000;
-        text-decoration: none;
-        
+        color:white;
+        background: rgba(96, 194, 203, 1);
+        border: 1px solid rgba(96, 194, 203, 0.7);
+        border-radius: 5px;
       }
     }
 
@@ -74,13 +74,6 @@ body {
       
     }
 
-    .menu1{
-      position: fixed;
-      top: 20px;
-      right: 70px;
-    
-    }
-
     #firstitem{
       right: 170px;
     }
@@ -89,10 +82,24 @@ body {
       display: inline;
     }
 
+    .menu1{
+      position: fixed;
+      left: 327px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+
     .menu2{
       position: fixed;
-      top: 90px;
-      right: -10px;
+      top: 190px;
+      right: 10px;
+      transform: rotate(90deg);
+    }
+
+    .menu3{
+      position: fixed;
+      top: 280px;
+      right: -15px;
       transform: rotate(90deg);
     }
 
@@ -358,14 +365,6 @@ body {
 
     @media screen and (min-width: 319px) {
 
-    .menuthing a{
-      color:white;
-      background: rgba(96, 194, 203, 1);
-      border: 1px solid rgba(96, 194, 203, 0.7);
-      border-radius: 5px;
-      
-    }  
-
     .photo1{
       position: absolute;
       top: 10px;
@@ -564,6 +563,38 @@ body {
     }
   }
 
+    @media screen and (min-width:374px){
+      .menu1{
+      position: fixed;
+      left: 343px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+    @media screen and (min-width:412px){
+      .menu1{
+      position: fixed;
+      left: 381px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+    @media screen and (min-width:412px){
+      .menu1{
+      position: fixed;
+      left: 381px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+    @media screen and (min-width:412px){
+      .menu1{
+      position: fixed;
+      left: 381px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
     @media screen and (min-width: 768px) {
 
     .photo1{
@@ -571,6 +602,12 @@ body {
       top: 10px;
       left: 15px;
       width: 75px;
+    }
+    .menu1{
+      position: fixed;
+      left: 736px;
+      top: 80px;
+      transform: rotate(90deg);
     }
 
       .statement2{
@@ -763,6 +800,22 @@ body {
       }
     }
   }
+  @media screen and (min-width:1023px){
+      .menu1{
+      position: fixed;
+      left: 991px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+    @media screen and (min-width:1279px){
+      .menu1{
+      position: fixed;
+      left: 1248px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
 
     @media screen and (min-width: 1365px) {
 
@@ -771,6 +824,13 @@ body {
       top: 10px;
       left: 15px;
       width: 100px;
+    }
+
+    .menu1{
+      position: fixed;
+      left: 1333px;
+      top: 80px;
+      transform: rotate(90deg);
     }
 
       .works{
@@ -964,7 +1024,14 @@ body {
     }
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1599px) {
+
+      .menu1{
+      position: fixed;
+      left: 1568px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
 
       .works{
       display: block;
@@ -1160,3 +1227,12 @@ body {
       }
     }
   }
+
+  @media screen and (min-width:1800px){
+      .menu1{
+      position: fixed;
+      left: 1887px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
