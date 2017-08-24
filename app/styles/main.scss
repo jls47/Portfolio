@@ -84,7 +84,7 @@ body {
 
     .menu1{
       position: fixed;
-      left: 327px;
+      left: 1900px;
       top: 80px;
       transform: rotate(90deg);
     }
@@ -563,6 +563,15 @@ body {
     }
   }
 
+  @media screen and (min-width:359px){
+      .menu1{
+      position: fixed;
+      left: 328px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+
     @media screen and (min-width:374px){
       .menu1{
       position: fixed;
@@ -571,10 +580,11 @@ body {
       transform: rotate(90deg);
     }
     }
+    
     @media screen and (min-width:412px){
       .menu1{
       position: fixed;
-      left: 381px;
+      left: 380px;
       top: 80px;
       transform: rotate(90deg);
     }
@@ -582,15 +592,7 @@ body {
     @media screen and (min-width:412px){
       .menu1{
       position: fixed;
-      left: 381px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-    @media screen and (min-width:412px){
-      .menu1{
-      position: fixed;
-      left: 381px;
+      left: 380px;
       top: 80px;
       transform: rotate(90deg);
     }
@@ -1232,6 +1234,14 @@ body {
       .menu1{
       position: fixed;
       left: 1887px;
+      top: 80px;
+      transform: rotate(90deg);
+    }
+    }
+  @media screen and (min-width:1921px){
+      .menu1{
+      position: fixed;
+      left: 2248px;
       top: 80px;
       transform: rotate(90deg);
     }
