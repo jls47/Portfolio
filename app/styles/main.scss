@@ -56,7 +56,7 @@ body {
     .menuthing{
       z-index: 100;
       
-      position: absolute;
+      position: fixed;
       right: 0;
       
       a{
@@ -68,9 +68,9 @@ body {
     }
 
     .menu{
-      position: fixed;
-      top: 5px;
-      right: 20px;
+      position: relative;
+      top: -340px;
+      right: 0px;
       
     }
 
@@ -83,23 +83,23 @@ body {
     }
 
     .menu1{
-      position: fixed;
-      left: 1900px;
-      top: 80px;
+      position: relative;
+      left: 0px;
+      top: -300px;
       transform: rotate(90deg);
     }
 
     .menu2{
-      position: fixed;
-      top: 190px;
-      right: 10px;
+      position: relative;
+      top: -245px;
+      right: 0px;
       transform: rotate(90deg);
     }
 
     .menu3{
-      position: fixed;
-      top: 280px;
-      right: -15px;
+      position: relative;
+      top: -200px;
+      right: 0px;
       transform: rotate(90deg);
     }
 
@@ -372,6 +372,8 @@ body {
       width: 50px;
     }
 
+    
+
       .statement2{
         margin-bottom: 400px;
       }
@@ -563,40 +565,7 @@ body {
     }
   }
 
-  @media screen and (min-width:359px){
-      .menu1{
-      position: fixed;
-      left: 328px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-
-    @media screen and (min-width:374px){
-      .menu1{
-      position: fixed;
-      left: 343px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-    
-    @media screen and (min-width:412px){
-      .menu1{
-      position: fixed;
-      left: 380px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-    @media screen and (min-width:412px){
-      .menu1{
-      position: fixed;
-      left: 380px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
+  
     @media screen and (min-width: 768px) {
 
     .photo1{
@@ -605,12 +574,7 @@ body {
       left: 15px;
       width: 75px;
     }
-    .menu1{
-      position: fixed;
-      left: 736px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
+    
 
       .statement2{
         margin-bottom: 300px;
@@ -802,22 +766,7 @@ body {
       }
     }
   }
-  @media screen and (min-width:1023px){
-      .menu1{
-      position: fixed;
-      left: 991px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-    @media screen and (min-width:1279px){
-      .menu1{
-      position: fixed;
-      left: 1248px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
+  
 
     @media screen and (min-width: 1365px) {
 
@@ -828,12 +777,7 @@ body {
       width: 100px;
     }
 
-    .menu1{
-      position: fixed;
-      left: 1333px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
+    
 
       .works{
       display: block;
@@ -1028,12 +972,7 @@ body {
 
   @media screen and (min-width: 1599px) {
 
-      .menu1{
-      position: fixed;
-      left: 1568px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
+    
 
       .works{
       display: block;
@@ -1229,20 +1168,3 @@ body {
       }
     }
   }
-
-  @media screen and (min-width:1800px){
-      .menu1{
-      position: fixed;
-      left: 1887px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
-  @media screen and (min-width:1921px){
-      .menu1{
-      position: fixed;
-      left: 1898px;
-      top: 80px;
-      transform: rotate(90deg);
-    }
-    }
