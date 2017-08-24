@@ -60,10 +60,9 @@ body {
       right: 0;
       top: 0;
       a{
-      color:white;
-      background: rgba(96, 194, 203, 1);
-      border: 1px solid rgba(96, 194, 203, 0.7);
-      border-radius: 5px;
+        color: rgba(96, 194, 203, 1);
+        z-index: 50000000;
+        text-decoration: none;
         
       }
     }
@@ -78,22 +77,8 @@ body {
     .menu1{
       position: fixed;
       top: 20px;
-      right: -10px;
+      right: 70px;
     
-    }
-
-    .menu2{
-      position: fixed;
-      top: 90px;
-      right: -10px;
-      transform: rotate(90deg);
-    }
-
-    .menu3{
-      position: fixed;
-      top: 160px;
-      right: -10px;
-      transform: rotate(90deg);
     }
 
     #firstitem{
@@ -104,7 +89,12 @@ body {
       display: inline;
     }
 
-    
+    .menu2{
+      position: fixed;
+      top: 90px;
+      right: -10px;
+      transform: rotate(90deg);
+    }
 
     .mainbody{
       margin-top: 300px;
