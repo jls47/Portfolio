@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 	    },
 	    pages:{
 		    options:{
-			    remote: 'git@github.com:jls47/Portfolio.git',
+			    remote: 'git@github.com:jls47/portfolio.git',
 			    branch: 'gh-pages'
 		    }
 	    }
