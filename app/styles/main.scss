@@ -758,7 +758,7 @@ body {
     }
 
     .footer1{
-      height: 300px;
+      height: 400px;
       background: rgb(97, 194, 203);
       margin-top: 150px;
       text-align: center;
@@ -773,3 +773,14 @@ body {
   }
 
 
+  @media screen and (min-width: 1280px) {
+    .footer1{
+      height: 300px;
+    }
+  }
+
+  @media screen and (min-width:1599px){
+    .footer1{
+      height: 200px;
+    }
+  }
