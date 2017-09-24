@@ -378,22 +378,24 @@ body {
 
     .works{
     display: block;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
     position: relative;
     background: #E4F6FA;
     .mainwork{
       width: 100%;
       margin-left: 0%;
+      
       height: 400px;
-      text-align: center;
-      overflow: hidden;
+      
       img{
-        margin-left: 0%;
+        margin-left: auto;
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        
+        overflow: hidden;
+        zoom: 60%;
+        object-fit: cover;
       }
       
     }
@@ -408,7 +410,7 @@ body {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: auto;
+        margin-top: 2.5%;
         margin-bottom: auto;
         overflow: hidden;
         object-fit: cover;
@@ -833,14 +835,13 @@ body {
         height: 400px;
         text-align: center;
         overflow: hidden;
-        margin-bottom: 10px;
+
         img{
           width: 100%;
           margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
-          margin-bottom: 10px;
-          
+
         }
         
       }
@@ -851,8 +852,7 @@ body {
         width: 100%;
         height: 400px;
         img{
-          height: 95%;
-          width: 95%;
+
           object-fit: cover;
           margin-top: auto;
           margin-bottom: auto;
@@ -861,8 +861,25 @@ body {
           overflow: hidden;
           
         }
+        .subwork0{
+          object-fit: cover;
+          overflow: hidden;
+          width:50%;
+          margin-left: -50%;
+        }
+        .subwork1{
+          width: 50%;
+          margin-left: 50%;
+        }
+        .description0{
+          float: right;
+        }
+        .description1{
+          float: left;
+        }
         display: inline-block;
       }
+      
     }
     .footer1{
       height: 150px;
