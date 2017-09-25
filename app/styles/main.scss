@@ -129,16 +129,14 @@ body {
 
     .statement2{
       margin-top: 300px;
-      
       width: 80vw;
       margin-left: 10vw;
       height: 300px;
-      //background: lightgrey;
       position: relative;
       img{
         width: 300px;
         float: left;
-      }
+      }      
 
       h3{
         display: inline;
@@ -183,7 +181,7 @@ body {
       }
       #subworks{
         width: 80%;
-        
+        position: relative;
         img{
           position: relative;
           z-index: 0;
@@ -210,7 +208,7 @@ body {
 
     .overlay1 {
       position: absolute;
-      top: 400px;
+      top: 0px;
       bottom: 0;
       left: 10%;
       right: 20%;
@@ -223,7 +221,7 @@ body {
 
     .overlay2 {
       position: absolute;
-      top: 400px;
+      top: 0px;
       bottom: 0;
       left: 50%;
       right: 20%;
@@ -236,7 +234,7 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 800px;
+      top: 0px;
       bottom: 0;
       left: 10%;
       right: 20%;
@@ -248,7 +246,7 @@ body {
     }
     .overlay4 {
       position: absolute;
-      top: 800px;
+      top: 0px;
       bottom: 0;
       left: 50%;
       right: 20%;
@@ -293,6 +291,8 @@ body {
         font-weight: bold;
       }
     }
+
+    
 
     .text1 {
       color: white;
@@ -364,6 +364,9 @@ body {
 
     @media screen and (min-width: 319px) {
 
+      #bigview{
+        display: none;
+      }
     .statement2{
       margin-bottom: 450px;
     }
@@ -405,6 +408,7 @@ body {
     #subworks{
       width: 100%;
       height: 400px;
+      position: relative;
       img{
         height: 95%;
         width: 95%;
@@ -434,7 +438,7 @@ body {
 
   .overlay1 {
     position: absolute;
-    top: 400px;
+    top: 0px;
     bottom: 0;
     left: 0%;
     right: 20%;
@@ -447,7 +451,7 @@ body {
 
   .overlay2 {
     position: absolute;
-    top: 800px;
+    top: 0px;
     bottom: 0;
     left: 0%;
     right: 20%;
@@ -460,7 +464,7 @@ body {
 
   .overlay3 {
     position: absolute;
-    top: 1200px;
+    top: 0px;
     bottom: 0;
     left: 0%;
     right: 20%;
@@ -472,7 +476,7 @@ body {
   }
   .overlay4 {
     position: absolute;
-    top: 1600px;
+    top: 0px;
     bottom: 0;
     left: 0%;
     right: 20%;
@@ -504,57 +508,6 @@ body {
   }
 
 
- 
-  .text0 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .text1 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .text2 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .text3 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .text4 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
   .footer1{
     height: 600px;
     background: rgb(97, 194, 203);
@@ -572,7 +525,7 @@ body {
 
   
     @media screen and (min-width: 767px) {
-
+    
     .photo1{
       position: absolute;
       top: 10px;
@@ -618,6 +571,7 @@ body {
           width: 100%;
           margin-left: auto;
           margin-right: auto;
+          margin-top: 0%;
           overflow: hidden;
           
         }
@@ -640,11 +594,11 @@ body {
 
     .overlay1 {
       position: absolute;
-      top: 400px;
+      top: 0px;
       bottom: 0;
       left: 0%;
-      right: 20%;
-      height: 400px;
+      
+      
       width: 100%;
       opacity: 0;
       transition: .5s ease;
@@ -653,10 +607,10 @@ body {
 
     .overlay2 {
       position: absolute;
-      top: 800px;
+      top: 0px;
       bottom: 0;
       left: 0%;
-      right: 20%;
+      
       height: 400px;
       width: 100%;
       opacity: 0;
@@ -666,7 +620,7 @@ body {
 
     .overlay3 {
       position: absolute;
-      top: 1200px;
+      top: 0px;
       bottom: 0;
       left: 0%;
       right: 20%;
@@ -678,7 +632,7 @@ body {
     }
     .overlay4 {
       position: absolute;
-      top: 1600px;
+      top: 0px;
       bottom: 0;
       left: 0%;
       right: 20%;
@@ -795,9 +749,7 @@ body {
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
-          
         }
-        
       }
       h1{
         font-size: 70px;
@@ -809,10 +761,10 @@ body {
           height: 100%;
           object-fit: cover;
           width: 100%;
+          margin-top: 0%;
           margin-left: auto;
           margin-right: auto;
           overflow: hidden;
-          
         }
         display: inline-block;
       }
@@ -823,6 +775,12 @@ body {
   }
 
   @media screen and (min-width:1599px){
+    #bigview{
+      display: none;
+    }
+    #smallview{
+      display: none;
+    }
     .works{
       display: block;
       width: 80vw;
@@ -835,15 +793,12 @@ body {
         height: 400px;
         text-align: center;
         overflow: hidden;
-
         img{
           width: 100%;
           margin-left: 0%;
           margin-right: auto;
           margin-top: auto;
-
         }
-        
       }
       h1{
         font-size: 70px;
@@ -852,14 +807,12 @@ body {
         width: 100%;
         height: 400px;
         img{
-
           object-fit: cover;
-          margin-top: auto;
+          margin-top: 0%;
           margin-bottom: auto;
           margin-left: auto;
           margin-right: auto;
           overflow: hidden;
-          
         }
         .subwork0{
           object-fit: cover;
@@ -871,6 +824,17 @@ body {
           width: 50%;
           margin-left: 50%;
         }
+        position: relative;  
+        h3{
+          display: inline;
+          text-align: center;
+          position: relative;
+          top: 40%;
+          -ms-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          color: rgba(246, 140, 31, 1);
+        }
         .description0{
           float: right;
         }
@@ -879,7 +843,6 @@ body {
         }
         display: inline-block;
       }
-      
     }
     .footer1{
       height: 150px;
