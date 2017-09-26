@@ -822,11 +822,11 @@ body {
         .subwork0{
           object-fit: cover;
           overflow: hidden;
-          width:50%;
-          
+          width:49.9%;
+          margin-right: 50%;
         }
         .subwork1{
-          width: 50%;
+          width: 49.9%;
           margin-left: 50%;
         }
         position: relative;  
@@ -840,17 +840,39 @@ body {
           transform: translateY(-50%);
           color: rgba(246, 140, 31, 1);
         }
-        .description0{
+
+        .overlay1 {
           width: 50%;
-          margin-left: 0%;
+        }  
+
+        .overlay2 {
+          width: 50%;
+          margin-left: 50%;
+        }  
+
+        .overlay3 {
+          width: 50%;
+        }  
+
+        .overlay4 {
+          width: 50%;
+          margin-left: 50%;
+        }          
+
+        .description0{
+          position: absolute;
+          width: 50%;
+          margin-left: 50%;
           float: right;
-          
+          height: 400px;
         }
         .description1{
+          position: absolute;
           width: 50%;
           margin-right: 50%;
           float: left;
-          
+          height: 400px;
+
         }
         display: inline-block;
       }
