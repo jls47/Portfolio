@@ -749,7 +749,9 @@ body {
           margin-right: auto;
           margin-top: auto;
           margin-bottom: auto;
+          
         }
+        
       }
       h1{
         font-size: 70px;
@@ -765,6 +767,7 @@ body {
           margin-left: auto;
           margin-right: auto;
           overflow: hidden;
+          
         }
         display: inline-block;
       }
@@ -776,8 +779,9 @@ body {
 
   @media screen and (min-width:1599px){
     #bigview{
-      display: none;
+      display: unset;
     }
+
     #smallview{
       display: none;
     }
@@ -793,6 +797,7 @@ body {
         height: 400px;
         text-align: center;
         overflow: hidden;
+
         img{
           width: 100%;
           margin-left: 0%;
@@ -818,7 +823,7 @@ body {
           object-fit: cover;
           overflow: hidden;
           width:50%;
-          margin-left: -50%;
+          
         }
         .subwork1{
           width: 50%;
@@ -836,10 +841,16 @@ body {
           color: rgba(246, 140, 31, 1);
         }
         .description0{
+          width: 50%;
+          margin-left: 0%;
           float: right;
+          
         }
         .description1{
+          width: 50%;
+          margin-right: 50%;
           float: left;
+          
         }
         display: inline-block;
       }
