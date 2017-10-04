@@ -20,6 +20,7 @@ angular.module('portfolioApp')
     $scope.menu = function(){
       if($scope.clicked === false){
         $scope.clicked = true;
+        
       }else{
         $scope.clicked = false;
       };
