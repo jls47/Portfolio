@@ -35,13 +35,9 @@ body {
 }
 
 
-.closed{
-  -webkit-transition: all 2s ease;  
-  -moz-transition: all 2s ease;  
-  -o-transition: all 2s ease;  
-  -ms-transition: all 2s ease;  
-  transition: all 2s ease;
-}
+
+
+
 
 
 
@@ -55,6 +51,12 @@ body {
       top: 10px;
       left: 15px;
       width: 100px;
+      -webkit-transition: width 0.5s;
+      transition: width 0.5s;
+    }
+
+    .photo1:hover{
+      width: 150px;
     }
    
 
@@ -136,13 +138,20 @@ body {
      
     }
 
+    @keyframes animatedBackground {
+      from {background-position: 0 0;}
+      to {background-position: 400% 0;}
+    }
+
     .pstatement1{
       height: 300px;
       margin-bottom: 300px;
       overflow: hidden;
-      background-image: url("http://i.imgur.com/WZtVgW0.png");
+      background-image: url("https://i.imgur.com/MxZ9gfY.png");
+      background-position: 0px 0px;
       background-repeat: repeat-x;
       background-position: center;  
+      animation: animatedBackground 300s linear infinite;
       h2{
         color: rgba(242, 112, 34, 1);
       }
