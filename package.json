@@ -40,6 +40,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "sine-waves": "^0.3.0"
   }
 }
