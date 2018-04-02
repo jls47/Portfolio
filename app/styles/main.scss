@@ -15,6 +15,10 @@ body {
   text-align: center;
 }
 
+.big{
+  display: none;
+}
+
 @keyframes animate {
   from {
     opacity: 1;
@@ -90,9 +94,8 @@ body {
     }
 
     .pstatement1{
-      height: 40vw;
-      margin-top: 0px;
-      margin-bottom: 200px;
+      height: 400px;
+      
       overflow: hidden;
       background: rgba(253, 210, 190, 0.5);
       background-position: 0px 0px;
@@ -109,6 +112,8 @@ body {
         
       }
     }
+
+    
 
     .statement2{
       margin-top: 300px;
@@ -758,8 +763,35 @@ body {
     .footer1{
       height: 300px;
     }
-  }
 
+    .small{
+      display: none;
+    }
+    .big{
+      display: block;
+    }
+  
+
+  .pstatement1{
+    height: 600px;
+    
+    overflow: hidden;
+    background: rgba(253, 210, 190, 0.5);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    background-position: center;  
+    
+    h2{
+      color: rgba(242, 112, 34, 1);
+    }
+    img{
+      margin-top: -150px;
+      width: 100%;
+      
+      
+    }
+  }
+}
   @media screen and (min-width:1599px){
     #bigview{
       display: unset;
