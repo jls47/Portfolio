@@ -108,7 +108,7 @@ body {
       }
       img{
         margin-top: 0px;
-        height: 100%;
+        width: 100%;
         
         
       }
@@ -512,7 +512,24 @@ body {
   }
   }
 
-  
+    @media screen and (min-width: 410px){
+      .pstatement1{
+        height: 400px;
+        overflow: hidden;
+        background: rgba(253, 210, 190, 0.3);
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+        background-position: center;  
+        h2{
+          color: rgba(242, 112, 34, 1);
+        }
+        img{
+          margin-top: 0px;
+          height: 100%;
+        }
+      }
+    }
+
     @media screen and (min-width: 767px) {
     
     .photo1{
