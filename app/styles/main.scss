@@ -39,6 +39,28 @@ body {
   top: -40px;
 }
 
+.techused{
+  margin-top: 200px;
+  background: rgba(253, 210, 190, 0.1);
+  height: 200px;
+}
+
+.techitem{
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  -webkit-transition: width 0.5s; /* For older versions of Safari */
+  transition: width 0.5s;
+}
+
+.items{
+  background: rgba(253, 210, 190, 0.2);
+}
+
+.techitem:hover{
+  width: 175px;
+}
+
 .contactlink{
   -webkit-transition: width 0.5s; /* For older versions of Safari */
   transition: width 0.5s;
@@ -368,6 +390,13 @@ body {
       width: 50px;
     }
 
+    .techused{
+      margin-bottom: 1300px;
+    }
+
+    .techitem{
+      margin-top: 20px;
+    }
 
     .works{
     display: block;
@@ -497,7 +526,9 @@ body {
      opacity: 0.95;
   }
 
-
+  .statement2{
+    margin-bottom: 600px;
+  }
   .footer1{
     height: 600px;
     background: rgb(97, 194, 203);
@@ -511,6 +542,8 @@ body {
       margin-right: 100px;
     }
   }
+
+
   }
 
   @media screen and (min-width: 350px){
@@ -559,7 +592,10 @@ body {
       left: 15px;
       width: 75px;
     }
-    
+    .techused{
+      margin-top: 200px;
+      margin-bottom: 400px;
+    }
 
       .statement2{
         margin-bottom: 300px;
@@ -761,6 +797,11 @@ body {
 
 
   @media screen and (min-width: 1280px) {
+    .techused{
+      margin-bottom: 100px;
+      height: 300px;
+    }
+
     .works{
       display: block;
       width: 80vw;
@@ -831,6 +872,19 @@ body {
       height: auto;
       
     }
+  }
+
+  .toolbox{
+    margin-top: 60px;
+    margin-bottom: -10px;
+  }
+
+  .techitem{
+    margin-bottom: 20px;
+  }
+
+  .statement2{
+    margin-bottom: 100px;
   }
 }
   @media screen and (min-width:1599px){
