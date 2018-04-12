@@ -41,3 +41,27 @@ that comes with a proper framework and let nothing stand in the way of the JavaS
 
 Github / Site
 
+ADD-A-MAP
+
+Overview
+As my coursework in Seattle University's Web Development program continued, my colleagues and I began to experiment with more advanced technologies.
+This is one of the results of said experimentation: a quick little informative site that displays a map of Mt. Rainier, with various points of interest listed
+for those who might be interested in visiting or even climbing it.
+
+Technology
+The site uses the basics of HTML, CSS, and JS.  Alongside these are other tools, chief of which is Leaflet.  Leaflet, 
+for the purposes of this site, is used to present a responsive, versatile, and easy-to-understand map.
+Bootstrap, a CSS framework that enables quick responsive development, was also employed, as was JQuery to make it easy
+to control HTML elements with JQuery.  
+
+Github / Site
+
+PROJECT EULER
+
+Overview
+Project Euler is a site I've had a solid amount of fun with.  It's a series of mathematical challenges that test one's ability to understand the ins and outs
+of at times complex mathematical concepts and one's ability to translate said concepts into programming.  I took this up as a sort of litmus test, to see that I 
+was capable of some of the more complicated aspects of pure programming, and am happy to say that I have not disappointed myself.
+
+Technology
+At the moment, this is written in nothing but pure Python 3.  It has about a dozen challenges completed, with more to surely come.
