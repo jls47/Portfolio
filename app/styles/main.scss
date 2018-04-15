@@ -17,9 +17,37 @@ body {
   font-family: "arial";
 }
 
-.exptext{
+.explainer{
   width: 80%;
   margin-left: 10%;
+  height: 900px;
+  
+}
+
+.exptext{
+  
+  background: rgba(253, 184, 19, 0.3);
+  height: 100%;
+}
+
+#exptext1{
+  background-image: url('http://i.imgur.com/3kUMod4.png')
+}
+
+#exptext2{
+  background-image: url('http://i.imgur.com/N9V9dfI.png')
+}
+
+#exptext3{
+  background-image: url('https://i.imgur.com/YyAeFKD.png')
+}
+
+#exptext4{
+  background-image: url('http://i.imgur.com/wFz3mOb.jpg')
+}
+
+#exptext5{
+  background-image: url('http://i.imgur.com/kvTrLmZ.png')
 }
 
 .overview{
