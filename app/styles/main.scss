@@ -875,23 +875,34 @@ h2{
       height: 300px;
     }
 
-    .overview p{
-      width: 60%;
-      margin-left: 20%;
+    .exptext{
+      position: relative;
     }
 
-    .technology p{
-      width: 60%;
-      margin-left: 20%;
-    }
     .overview{
+      width: 40%;
+      margin-left: 10%;
+      float: left;
+    }
+    .overview p{
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .technology{
+      width: 40%;
       margin-top: 100px;
+      right: 10%;
+
+      
+      height: 50%;
+    }
+    .technology p{
+      width: 80%;
+      margin-left: 10%;
     }
     
-    .technology{
-      margin-top: 100px;
-      margin-bottom: 200px;
-    }
+
 
     .works{
       display: block;
