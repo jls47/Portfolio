@@ -17,6 +17,16 @@ body {
   font-family: "arial";
 }
 
+h1{
+
+  text-shadow: 2px 2px #ff6600
+}
+
+h2{
+
+  text-shadow: 2px 2px #ff6600
+}
+
 .explainer{
   width: 80%;
   margin-left: 10%;
@@ -28,6 +38,17 @@ body {
   
   background: rgba(253, 184, 19, 0.3);
   height: 100%;
+  font-size: 25px;
+}
+
+.overview{
+  background: rgba(233, 90, 7, 0.7);
+  color: white;
+}
+
+.technology{
+  background: rgba(233, 90, 7, 0.7);
+  color: white;
 }
 
 #exptext1{
@@ -427,6 +448,10 @@ body {
 
     @media screen and (min-width: 319px) {
 
+      .exptext{
+        font-size: 17px;
+      }
+
       #bigview{
         display: none;
       }
@@ -637,6 +662,11 @@ body {
     }
 
     @media screen and (min-width: 767px) {
+
+      .exptext{
+        font-size: 25px;
+      }
+      
     
     .photo1{
       position: absolute;
@@ -852,6 +882,16 @@ body {
     .techused{
       margin-bottom: 100px;
       height: 300px;
+    }
+
+    .overview p{
+      width: 60%;
+      margin-left: 20%;
+    }
+
+    .technology p{
+      width: 60%;
+      margin-left: 20%;
     }
 
     .works{
