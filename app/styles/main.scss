@@ -895,9 +895,9 @@ h2{
   
 
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 768px) {
     .techused{
-      margin-bottom: 100px;
+      margin-bottom: 250px;
       height: 300px;
     }
 
@@ -996,7 +996,7 @@ h2{
     }
     img{
       margin: auto auto auto auto;
-      width: auto;
+      width: 100%;
       height: auto;
       
     }
@@ -1015,13 +1015,20 @@ h2{
     margin-bottom: 100px;
   }
 }
-  @media screen and (min-width:1599px){
+  @media screen and (min-width:800px){
     #bigview{
       display: unset;
     }
 
     #smallview{
       display: none;
+    }
+	
+	.small{
+      display: none;
+    }
+    .big{
+      display: block;
     }
     .works{
       display: block;
@@ -1035,12 +1042,16 @@ h2{
         height: 400px;
         text-align: center;
         overflow: hidden;
+		object-fit: cover;
+
 
         img{
-          width: 100%;
-          margin-left: 0%;
+          object-fit: cover;
+          margin-top: 0%;
+          margin-bottom: auto;
+          margin-left: auto;
           margin-right: auto;
-          margin-top: auto;
+          overflow: hidden;
         }
       }
       h1{
@@ -1049,6 +1060,7 @@ h2{
       #subworks{
         width: 100%;
         height: 400px;
+		
         img{
           object-fit: cover;
           margin-top: 0%;
@@ -1118,4 +1130,23 @@ h2{
     .footer1{
       height: 150px;
     }
+	.pstatement1{
+		height: 600px;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(240,100,40,0.2);
+		background-position: 0px 0px;
+		background-repeat: repeat-x;
+		background-position: center;  
+    
+		h2{
+			color: rgba(242, 112, 34, 1);
+		}
+		img{
+			margin: auto auto auto auto;
+			width: 100%;
+			height: auto;
+      
+		}
+	}
   }
