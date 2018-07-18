@@ -642,7 +642,7 @@ h2{
 
   @media screen and (min-width: 350px){
     .pstatement1{
-      height: 500px;
+      height: 350px;
       overflow: hidden;
       background: rgba(240,100,40,0.2);
       background-position: 0px 0px;
@@ -653,30 +653,13 @@ h2{
       }
       img{
         margin-top: 0px;
-        width: 100%;
-        height: auto;
+        height: 100%;
+        width: auto;
       }
     }
   }
 
-    @media screen and (min-width: 413px){
-      .pstatement1{
-        height: 400px;
-        overflow: hidden;
-        background: rgba(240,100,40,0.2);
-        background-position: 0px 0px;
-        background-repeat: repeat-x;
-        background-position: center;  
-        h2{
-          color: rgba(242, 112, 34, 1);
-        }
-        img{
-          margin-top: 0px;
-          width: 100%;
-          height: auto;
-        }
-      }
-    }
+    
 
     @media screen and (min-width: 767px) {
 
@@ -697,7 +680,7 @@ h2{
     }
 
       .statement2{
-        margin-bottom: 100px;
+        margin-bottom: 300px;
       }
 
       .works{
@@ -983,7 +966,7 @@ h2{
   
 
   .pstatement1{
-    height: 600px;
+    height: 400px;
     text-align: center;
     overflow: hidden;
     background: rgba(240,100,40,0.2);
@@ -1012,7 +995,7 @@ h2{
   }
 
   .statement2{
-    margin-bottom: 100px;
+    margin-bottom: 300px;
   }
 }
   @media screen and (min-width:800px){
@@ -1142,7 +1125,7 @@ h2{
 	  
     }
 	.pstatement1{
-		height: 600px;
+		height: 500px;
 		text-align: center;
 		overflow: hidden;
 		background: rgba(240,100,40,0.2);
@@ -1159,5 +1142,10 @@ h2{
 			height: auto;
       
 		}
+	}
+  }
+  @media screen and (min-width:1000px){
+	.statement2{
+		margin-bottom: 100px;
 	}
   }
